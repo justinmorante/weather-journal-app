@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="Weather Journal App" content="Interactive Weather Application" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        
+        <!-- Title -->
+        <title>Weather Journal App</title>
+
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.ico">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- <link rel="icon" href="images/favicon.ico"> -->
+
+    </head>
+
+    <body>
+    
+    <!-- Journal Home -->
+    <section id="journal">
+           
+        <div class="row">
+
+            <!-- Journal Header -->
+            <div class="col-lg-12">
+                <div class="header">
+                    <h1>2020 Weather Journal</h1>
+                    <h2>A Udacity Front End Web Development Project</h2>
+                    <h2 id="error-message" class="error-hide">Data is incorrect. Please try again.</h2>
+                </div>
+            </div>
+        </div>
+            
+        <div class="row">
+
+            <!-- Journal Left Column -->
+            <div class="col-lg-4 text-center">
+                <div class="city-search">
+                    <label id="zip-label" class="white-text" for="zip">Search By Zip Code</label>
+                    <input id="zip" type="text" size="18" placeholder="Enter Zip Code Here">
+                    <label id="city-label" class="white-text" for="city"><strong>OR</strong> Search By City</label>
+                    <input id="city" type="text" size="18" placeholder="Enter City Here">
+                </div>
+
+                <div class="scale">
+                    <p class="scale-title">Choose Your Scale:</p>
+                    <label class="white-text" for="fahrenheit">Fahrenheit</label>
+                    <input id="fahrenheit" type="radio" name="scale" value="imperial">
+                    <label class="white-text radio-label" for="celsius">Celsius</label>
+                    <input id="celsius" type="radio" name="scale" value="metric">
+                </div>
+            </div>
+
+            <!-- Journal Middle Column -->    
+            <div class="col-lg-4">    
+                <div class="thoughts">
+                    <label id="thoughts-label" class="white-text" for="feelings">Add Your Thoughts</label>
+                    <textarea id="feelings" class="thoughts-input" placeholder="Enter Your Thoughts Here" rows="10" cols="50"></textarea>
+                    <button id="generate" type="submit">Generate</button>
+                </div>
+            </div>
+
+            <!-- Journal Right Column -->
+            <div class="col-lg-4">
+                <div id="output">
+                    <div class="white-text recent-search">Weather Report</div>
+                        <div id="entryHolder">
+                            <div id="icon"></div>
+                            <div id="location"></div>
+                            <div id="date"></div>
+                            <div id="temp"></div>
+                            <div id="content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <footer>
+      <h2>&copy; 2020 Justin Morante</h2>
+    </footer>
+    <!-- Journal Home Ends -->
+       
+    <!-- JQUery JS -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script> 
+    <!-- Link to app.js -->
+    <script src="js/app.js"></script>
+
+    </body>
+
+</html>

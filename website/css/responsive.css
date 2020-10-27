@@ -1,0 +1,232 @@
+/*  ==============================
+            Media Queries
+=================================*/
+
+/* Large Devices (Desktops) */
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+    #feelings {
+        width: 350px;
+        height: 280px;
+    }
+
+    #entryHolder {
+        font-size: 16px;
+        width: 350px;
+        padding: 10px;
+    }
+    
+}
+
+/* Large Devices (Desktop & Laptops) */
+@media (min-width: 1300px) and (max-width: 1399px) {
+
+    #feelings {
+        width: 320px;
+        height: 250px;
+        font-size: 16px;
+    }
+
+    #entryHolder {
+        font-size: 14px;
+        width: 320px;
+        padding: 10px;
+    }
+
+    footer h2 {
+        font-size: 22px;
+    }
+    
+}
+
+/* Large Devices (Desktops & Laptops) */
+@media (min-width: 1200px) and (max-width: 1299px) {
+
+    #feelings {
+        width: 280px;
+        height: 250px;
+        font-size: 16px;
+    }
+
+    #entryHolder {
+        font-size: 14px;
+        width: 280px;
+        padding: 10px;
+    }
+
+    footer h2 {
+        font-size: 22px;
+    }
+    
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    #zip {
+        font-size: 16px;
+    }
+    
+    #city {
+        font-size: 16px;
+    }
+
+    #feelings {
+        width: 250px;
+        height: 220px;
+        font-size: 16px;
+    }
+
+    #generate {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #entryHolder {
+        font-size: 14px;
+        width: 250px;
+        height: 260px;
+        padding: 10px;
+    }
+
+    footer h2 {
+        font-size: 22px;
+    }
+
+}    
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .city-search {
+        margin-top: 30px;
+    }
+    
+    #city-label {
+        margin-top: 20px;
+    }
+
+    .scale {
+        margin-bottom: 20px;
+    }
+    
+    .thoughts {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #feelings {
+        width: 350px;
+        height: 250px;
+        font-size: 16px;
+    }
+
+    #generate {
+        font-size: 16px;
+        padding: 10px;
+        margin: 25px auto;
+    }
+
+    .recent-search {
+        text-align: center;
+    }
+
+    #entryHolder {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+} 
+
+/* Small Devices (Landscape Phones & Portrait Tablets) */
+@media (max-width: 767px) {
+
+    .city-search {
+        margin-top: 30px;
+    }
+    
+    #city-label {
+        margin-top: 20px;
+    }
+
+    .scale {
+        margin-bottom: 20px;
+    }
+    
+    .thoughts {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #feelings {
+        width: 350px;
+        height: 250px;
+        font-size: 16px;
+    }
+
+    #generate {
+        font-size: 16px;
+        padding: 10px;
+        margin: 25px auto;
+    }
+
+    .recent-search {
+        text-align: center;
+    }
+
+    #entryHolder {
+        text-align: center;
+        margin: 0 auto;
+        width: 350px;
+        font-size: 15px;
+    }
+
+}
+    
+/* Extra Small Devices (Portrait Phones) */
+@media (max-width: 480px) {
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header h2 {
+        font-size: 20px;
+    }
+
+    #zip {
+        font-size: 16px;
+    }
+    
+    #city {
+        font-size: 16px;
+    }
+
+    #feelings {
+        width: 250px;
+    }
+
+    #entryHolder {
+        width: 250px;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+    
+}
+
+/* Extra Small Devices (Portrait Phones) */
+@media (max-width: 320px) {
+
+    #feelings {
+        width: 240px;
+    }
+    
+    #entryHolder {
+        width: 240px;
+    }
+
+}
+    
+    
