@@ -52,7 +52,7 @@ function generateData() {
     // Update the UI
     .then(function (weatherData) {
       const error = document.getElementById('error-message');
-      if (weatherData.cod == '200') {
+      if (thoughtsText.value !== '' && weatherData.cod == '200') {
         error.classList.add('error-hide');
         const icon = weatherData.weather[0].icon;
         const location = weatherData.name;
